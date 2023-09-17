@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Inter');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; 
+    background-image: url(assets/bg2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.glass {
+    max-width: 600px; 
+    width: 90%;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #000;
+    background: rgba(255, 255, 255, 0.70);
+    backdrop-filter: blur(2px);
+    text-align: center;
+    color: #000;
+    font-family: 'Inter', sans-serif; 
+    font-size: 1rem; 
+    font-weight: 400;
+    line-height: 1.5; 
+}
+
+.para {
+    font-family: 'Black Ops One', sans-serif;
+    font-size: 1rem;
+    text-align: left;
+}
+
+.pic {
+    width: 100%;
+    max-width: 200px; 
+}
+.dis{
+    
+    width: 10%;
+    height: 50%;
+    
+}
